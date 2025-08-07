@@ -6,6 +6,7 @@ import Section2 from "@/Pages/Section2";
 import Section3 from "@/Pages/Section3";
 import Section4 from "@/Pages/Section4";
 import Section5 from "@/Pages/Section5";
+import Section6 from "@/Pages/Section6";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <Section6/>
       <Footer />
     </div>
   );

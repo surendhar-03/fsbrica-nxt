@@ -1,0 +1,89 @@
+.Section6 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.Section6 .part-7 .pt7-2 h2 {
+    width: 730px;
+    margin-bottom: 25px;
+}
+
+.Section6 .part-7 .pt7-1 .empty-div .pt4-1 {
+    width: 34%;
+}
+
+.Section6 .part-7 .pt7-2 p {
+    width: 392px;
+    color: rgb(119, 119, 119);
+}
+
+.Section6 .part-7 .pt7-2 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.part7-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.non-emptydiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    background-color: white;
+    width: 20.7%;
+    border-radius: 20px;
+}
+
+.emp1 {
+    display: flex;
+
+}
+
+.emp1-1 {
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+}
+
+.emp1 .emp1-1 .dot {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.emp1 .emp1-2 p {
+    font-size: 8px;
+    color: rgb(103, 103, 103);
+}
+
+.emp2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emp2 .emp2-1 img {
+    width: 51px;
+    height: 51px;
+    border-radius: 11px;
+
+}
+.emp2-2{
+        width: 71%;
+}
+
+.emp2 .emp2-2 p {
+    font-size: 17px;
+}
+
+.emp1-2 {
+    width: 80%;
+    justify-items: end;
+}

@@ -90,8 +90,8 @@ gap: 20px;
   border: 1px solid white;
   
 }
-.afr-12-5{
-
+.afr-icon:hover {
+  transform: rotate(180deg);
 }
 
 .afr-body {

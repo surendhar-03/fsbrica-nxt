@@ -35,11 +35,16 @@ import img32 from '@/Images/img32.png'
 import img33 from '@/Images/img33.png'
 import img34 from '@/Images/img34.png'
 import img35 from '@/Images/img35.png'
-// import img36 from '@/Images/img36.svg'
-// import img37 from '@/Images/img23.svg'
-// import img38 from '@/Images/img23.svg'
-// import img39 from '@/Images/img23.svg'
-// import img40 from '@/Images/img23.svg'
+import img36 from '@/Images/img36.png'
+import img37 from '@/Images/img37.png'
+import img38 from '@/Images/img38.png'
+import img39 from '@/Images/img39.png'
+import img40 from '@/Images/img40.png'
+import img41 from '@/Images/img41.png'
+import img42 from '@/Images/img42.png'
+import img43 from '@/Images/img43.png'
+import img44 from '@/Images/img44.png'
+// import img45 from '@/Images/img45.png'
 
 
 export const imgdata = [
@@ -66,6 +71,15 @@ export const imgdata = [
   { imgurl: img21 },
   { imgurl: img22 },
   { imgurl: img23 },
+  { imgurl: img36 },
+  { imgurl: img37 },
+  { imgurl: img38 },
+  { imgurl: img39 },
+  { imgurl: img40 },
+  { imgurl: img41 },
+  { imgurl: img42 },
+  { imgurl: img43 },
+  { imgurl: img44 },
   
 ];
 export const items = [
