@@ -32,7 +32,6 @@
 .content-wrapper {
   position: relative;
   z-index: 3;
-  /* 👈 This brings it above background and overlay */
   color: white;
 
 }
@@ -173,7 +172,8 @@ gap: 20px;
 }
 
 .image-stack.image1 {
-
+  position: absolute;
+  left: 5px;
 }
 
 .image-stack.image2 {
