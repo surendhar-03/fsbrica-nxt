@@ -1,0 +1,187 @@
+
+.section3 {
+  padding-top: 221px;
+}
+
+
+.pt6-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+
+.pt6-1-1.twent {
+  width: 25.5%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.part-6{
+    flex-direction: column;
+    gap: 214px;
+    display: flex;
+}
+.pt6-1-1.twent-1 {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pt6-1-1-2 h1 {
+  font-size: 144px;
+  font-weight: 600;
+  line-height: 1;
+  
+  margin: 0;
+}
+
+.pt6-1-1-2 h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pt6-1-1.twent-2 {
+  width: 22%;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5e5c5c;
+  padding-top: 69px;
+  font-weight: 500;
+}
+
+.mx-w {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.pt6-2-1{
+    width: 49.8%;
+    gap: 6px;
+    flex-direction: column;
+    display: flex;
+margin-bottom: 6px;
+}
+.pt6-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pt6-2-1-1 {
+  background-color:#ffffff;
+ padding: 24px 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.pt6-2-11-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pt6-2-111-1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+.pt6-2-111-2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+}
+
+.pt6-2-11-2 {
+  display: flex;
+  gap: 2px;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+}
+
+
+.circle.red:hover {
+  background-color: #ff5f56;
+}
+
+.circle.yellow:hover {
+  background-color: #ffbd2e;
+}
+
+.circle.green:hover {
+  background-color: #27c93f;
+}
+.pt6-2-1-2 {
+  position: relative;
+  width: 100%;
+  height: 512px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.pt6-2-13 {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.pt6-2-13 img {
+  width: 100%;
+
+  object-fit: cover;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+
+.pt6-2-12 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+
+.pt6-2-12 img {
+  width: 180px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+
+.pt6-2-1:hover .pt6-2-13 img {
+  transform:scale(1.2) ;
+  filter: blur(4px);
+  transition-duration: 1s;
+}
+
+.pt6-2-1:hover .pt6-2-12 img {
+  transform: scale(0.9);
+}
+
+.pt6-2-1:hover .circle.red {
+  background-color: #ff5f56;
+}
+
+.pt6-2-1:hover .circle.yellow {
+  background-color: #ffbd2e;
+}
+
+.pt6-2-1:hover .circle.green {
+  background-color: #27c93f;
+}

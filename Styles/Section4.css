@@ -1,0 +1,311 @@
+.pt7-11-1 {
+    background-color: black;
+    color: #ffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pt7-1-1 {
+    display: flex;
+}
+
+.part-7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 {
+    padding-top: 159px;
+    padding-bottom: 159px;
+}
+
+.pt7-1 {
+    width: 25%;
+}
+
+.pt7-2 {
+    width: 70%;
+}
+
+.pt7-1 .empty-div {
+    width: 100%;
+}
+
+.pt7-1 .empty-div .pt4-1 {
+    width: 44%;
+}
+
+.pt7-2 h2 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -3.6px;
+}
+
+.pt7-2 span {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1.6px;
+    color: rgb(120, 120, 120);
+}
+
+
+.part-8 {
+    display: flex;
+    padding-top: 110px;
+}
+
+.pt8-1 {
+    display: flex;
+    width: 50%;
+}
+
+.pt8-1-1 {
+    width: 50%;
+}
+
+.pt8-1-2 {
+    width: 50%;
+}
+
+.pt8-2 {
+    display: flex;
+    width: 50%;
+}
+
+.pt8-1-1 img {
+    height: 593.6px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* 🆕 Black transparent overlay */
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/* Ensure image stays behind overlay */
+.img-container img {
+    position: relative;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+
+/* 🆕 Overlay container */
+.img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+.img-container:hover img {
+    transform: scale(1.1);
+    filter: blur(4px);
+}
+
+/* --- Hover Info --- */
+.hover-info {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    opacity: 0;
+    color: white;
+    padding: 20px;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    gap: 15px;
+}
+
+.img-container:hover .hover-info {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Text Section */
+.img-hover-con-1 p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.img-hover-con-1 {
+    text-align: left;
+}
+
+.pt8-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.pt8-2-1 {
+    width: 77%;
+    text-align: start;
+}
+
+.pt8-2-1 p {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+}
+
+.pt8-2-1 span {
+    font-weight: 600;
+    color: black;
+}
+
+.pt8-22-1 {
+    width: 49.7%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     transition: gap 0.4s ease;
+}
+
+.pt8-22-1-1,
+.pt8-22-1-2 {
+  transition: border-radius 0.4s ease;
+}
+.pt8-22-1:hover .pt8-22-1-1{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+.pt8-22-1:hover .pt8-22-1-2{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.pt8-22-1:hover {
+    gap: 0;
+
+}
+.pt8-22-2:hover .pt8-22-1-1{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.pt8-22-2:hover .pt8-22-1-2{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.pt8-22-2:hover {
+    gap: 0;
+
+}
+
+.pt8-22-2 {
+    width: 49.7%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+     transition: gap 0.4s ease;
+}
+
+.pt8-2-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pt8-22-1-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.pt8-2211-1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.pt8-2211-2 {
+    font-size: 10px;
+    color: #7b7b7b;
+}
+
+.pt8-22-1-1 {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pt8-22-1-2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 164px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.pt8-22-1-2 .pt8-2212-1 p {
+    font-size: 18px;
+    width: 59%;
+
+}
+
+.pt8-22-1-2 .pt8-2212-2 p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+}
+
+.pt8-2212-1 {
+    justify-items: end;
+    text-align: end;
+}
+
+/* img{}
+ */
+.pt8-22121-1 {
+    width: 22.33%;
+}
+
+.pt8-22121-1 img {
+    height: 33.8125px;
+}
+
+.pt8-22121-2 {
+    width: 27.33%;
+}
+
+.pt8-22121-2 {
+    height: 20px;
+}
+
+.pt8-22121-3 {
+    width: 26.33%;
+}
+
+
+
+.pt8-2212-23 {
+    display: flex;
+    justify-content: space-between;
+}
