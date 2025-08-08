@@ -1,0 +1,166 @@
+.Section7 {
+    padding-top: 150px;
+}
+.Section7 .part-7{
+padding-bottom: 100px;
+}
+
+.Section7 .pt7-1 .empty-div .pt4-1 {
+    width: 35%;
+}
+
+.Section7 .pt7-2 h2 {
+    font-size: 144px;
+}
+
+.Section7 .pt7-2 p {
+    font-size: 36px;
+}
+
+.part-9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.non-emp-2 {
+    width: 20.7%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+.ne-2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ne-2-11 {
+    display: flex;
+}
+
+.ne-2-12 {
+    width: 63%;
+}
+
+.ne-2-11-1 h1 {
+    font-size: 56px;
+
+}
+
+.ne-2-11-1 {
+    height: 56px;
+}
+
+.ne-2-11-2 {
+    height: 56px;
+    align-content: end;
+}
+
+.ne-2-11-2 p {
+    font-size: 20px;
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+}
+
+.ne-2-12 p {
+    font-size: 16px;
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+}
+
+.ne-2-12 span {
+    color: black;
+}
+
+.empty-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.ne-2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ne-22-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ne-22-1 p {
+    font-size: 20px;
+}
+
+.ne-221-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ne-22-12-1 {
+    width: 43%;
+    position: relative;
+        height: 43px;
+}
+
+.ne22-122-1 img {
+    width: 60px;
+}
+
+.ne22-122-2 p {
+    font-size: 12px;
+}
+
+.ne22-122-2 span {
+    color: rgb(136, 136, 136);
+}
+
+.ne-22-12-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ne-22-12-1  img{
+width: 40px;
+border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.ne-22-2 .pt3-2-2-4 {
+    justify-content: center;
+    width: 90%;
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 20px;
+}
+.sm-img1{
+position: absolute;
+}
+.sm-img2{
+position: absolute;
+left: 18px;
+}
+.sm-img3{
+position: absolute;
+    left: 39px;
+}
+.sm-img4{
+position: absolute;
+left: 61px;
+}
+.sm-img5{
+
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    background-color: black;
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid white;
+    left: 84px;
+}
+

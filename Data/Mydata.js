@@ -45,6 +45,7 @@ import img42 from '@/Images/img42.png'
 import img43 from '@/Images/img43.png'
 import img44 from '@/Images/img44.png'
 import img45 from '@/Images/img45.svg'
+import img46 from '@/Images/img46.png'
 
 
 export const imgdata = [
@@ -81,6 +82,7 @@ export const imgdata = [
   { imgurl: img43 },
   { imgurl: img44 },
   { imgurl: img45 },
+  { imgurl: img46 },
   
 ];
 export const items = [
