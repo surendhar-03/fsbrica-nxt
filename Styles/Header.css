@@ -1,51 +1,67 @@
-
-
+/* — Base Styles: Desktop First — */
 
 .grid {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;           /* Allow wrapping on smaller widths */
+  justify-content: space-between;
 }
 
-.grid-2 .grid-sec {
-    width: 45%;
-}
-
-.grid-3 .grid-sec {
-    width: 33.33%;
-}
-
-.grid-4 .grid-sec {
-    width: 25%;
-}
-
-.grid-5 .grid-sec {
-    width: 20%;
-}
-
-
-
-.grid-7 .grid-sec {
-    width: 14.28%;
-}
-
+.grid-2 .grid-sec { width: 45%; }
+.grid-3 .grid-sec { width: 33.33%; }
+.grid-4 .grid-sec { width: 25%; }
+.grid-5 .grid-sec { width: 20%; }
+.grid-7 .grid-sec { width: 14.28%; }
 
 a {
-    text-decoration: none;
-    color: black;
-}
-.para1{
-   font-size: 16px; 
-   font-weight: 600;
-}
-.p1{
-    font-size: 20px;
-}
-.Header{
-padding: 19px 36px;
-/* position: fixed;
-top: 0;
-left: 0;
-right: 0; */
-
+  text-decoration: none;
+  color: black;
 }
 
+.para1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.Header {
+  padding: 19px 36px;
+}
+
+/* — Tablet View (≤1024px) — */
+@media (max-width: 1024px) {
+  .grid-2 .grid-sec { width: 100%; }             /* Single-column for wider readability */
+  .grid-3 .grid-sec,
+  .grid-4 .grid-sec { width: 48%; margin-bottom: 1rem; }  /* Two-column layout */
+  
+  .Header {
+    padding: 16px 24px;                          /* Slightly reduced padding */
+  }
+}
+
+/* — Mobile View (≤768px) — */
+@media (max-width: 768px) {
+  .grid-2 .grid-sec,
+  .grid-3 .grid-sec,
+  .grid-4 .grid-sec,
+  .grid-5 .grid-sec,
+  .grid-7 .grid-sec {
+    width: 100%;      /* Full-width stacking */
+    margin-bottom: 1rem;
+  }
+
+  .Header {
+    width: 100%;
+    padding: 12px 16px;                          /* Compact padding for mobile */
+  }
+
+  .para1 {
+    font-size: 14px;
+  }
+
+  .p1 {
+    font-size: 16px;
+  }
+}

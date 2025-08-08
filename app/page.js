@@ -9,10 +9,9 @@ import Section5 from "@/Pages/Section5";
 import Section6 from "@/Pages/Section6";
 import Section7 from "@/Pages/Section7";
 
-
 export default function Home() {
   return (
-    <div>
+    <div className="main">
       <Scroll />
       <Header />
       <Section1 />

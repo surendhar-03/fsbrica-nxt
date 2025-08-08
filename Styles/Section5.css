@@ -163,8 +163,8 @@ gap: 20px;
 }
 
 .image-stack {
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
   border-radius: 14px;
   overflow: hidden;
   position: relative;

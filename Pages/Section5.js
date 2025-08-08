@@ -26,7 +26,7 @@ export default function Section5() {
               <div className="empty-div  ">
                 <div className="pt4-1">
                   <div className="pt4-1-1 pt10-1-1">+</div>
-                  <div className="Pt4-1-2">Why choose us</div>
+                  <div className="Pt4-1-2">What we do</div>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function Section5() {
                           </div>
                         </div>
                         <div className="afr12-2">
-                          <div><p>{item.title}</p></div>
+                          <div className="afr0001"><p>{item.title}</p></div>
                           <div className="afr12-3">
                             {item.content}
                           </div>
