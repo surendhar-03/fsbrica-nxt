@@ -59,6 +59,10 @@
     border-radius: 10px;
 }
 
+.emp1 .emp1-1 .grey {
+    background-color: rgb(175, 175, 175);
+}
+
 .emp1 .emp1-2 p {
     font-size: 8px;
     color: rgb(103, 103, 103);
@@ -75,8 +79,9 @@
     border-radius: 11px;
 
 }
-.emp2-2{
-        width: 71%;
+
+.emp2-2 {
+    width: 71%;
 }
 
 .emp2 .emp2-2 p {
