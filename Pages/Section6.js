@@ -87,6 +87,29 @@ export default function Section6() {
                 </div>
 
             </div>
+            <div className='mx-w part7-2'>
+
+<div className="showreel-card">
+ 
+  <img className="bg-image"  src={imgdata[27].imgurl.src} alt="Showreel background"/>
+
+  {/* <!-- Overlay Pattern --> */}
+  <div className="overlay"></div>
+{/* 
+  <!-- Center Content --> */}
+  <div className='content'>
+    <div className='playbutton'><img src={imgdata[32].imgurl.src}/></div>
+    <div className='con-1'> 
+        <div className='con1-1'><h4>Watch showreel</h4></div>
+        <div className='con1-2'><p>(2016-25©)</p></div>
+    </div>
+  </div>
+</div>
+
+
+            </div>
+            
+
         </div>
     );
 }

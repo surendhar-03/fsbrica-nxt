@@ -2,7 +2,10 @@
     padding-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+   
+}
+.Section6 .part-7{
+    padding-bottom: 100px;
 }
 
 .Section6 .part-7 .pt7-2 h2 {
@@ -92,3 +95,98 @@
     width: 80%;
     justify-items: end;
 }
+
+.showreel-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 25px;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.bg-image:hover {
+    transform: scale(1.2);
+    filter: blur(4px);
+    transition-duration: 1s;
+}
+
+.overlay {
+    position: absolute;
+    top: -200%;
+    left: -200%;
+    width: 400%;
+    height: 400%;
+    background: url("https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png");
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+}
+
+.con-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.playbutton img {
+    width: 92px;
+}
+
+.con1-1 h4 {
+    font-size: 30px;
+}
+
+.con1-2 {
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(119, 119, 119);
+}
+
+
+
+.playbutton img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.con-1 {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.4s ease-out, transform 0.3s ease-out;
+  white-space: nowrap; /* so text doesn't break */
+}
+
+.showreel-card:hover .con-1 {
+  opacity: 0;
+  transform: translateX(20px); /* move slightly for smooth exit */
+}
+
+.showreel-card:hover .playbutton img {
+  width: 100px;
+  transform: translateX(120px);
+  transition: all 0.5s ease-out;
+}
+
+
