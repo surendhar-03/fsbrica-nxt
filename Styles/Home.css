@@ -757,4 +757,84 @@
   .Section7 .pt7-2 p {
     font-size: 23px !important;
   }
+.part-9 {
+    flex-direction: column;
+    padding-top: 30px !important;
+    gap: 5px !important;
+
 }
+.non-emp-2{
+width: 80%!important;
+}
+.ne-2-1{
+  flex-direction: column;
+  gap: 15px;
+}
+.ne-2-11-1 h1{
+  font-size: 42px !important;
+}
+.ne-2-11-2 p{
+  font-size: 13px !important;
+}
+.empty-1{
+  gap: 60px!important;
+}
+.ne-2-12{
+  width: 100%!important;
+
+}
+.ne-2-12 p{
+  font-size: 13px!important;
+}
+.ne-221-2{
+  flex-direction: column;
+  gap: 10px !important;
+}
+
+
+
+.ne-22-2 .pt3-2-2-4{
+  width: 186px!important;
+    height: 25px!important;
+}
+.ne-3-1{
+  padding: 24px !important;
+}
+
+
+.empty-2.non-emp-2{
+width: 100% !important;
+}
+.ne-32-2 p{
+  font-size: 22px!important;
+}
+.ne-3-2{
+  gap: 80px!important;
+}
+.empty-4{
+  width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
