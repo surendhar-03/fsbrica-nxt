@@ -1,5 +1,7 @@
 .pt5-1 {
     display: flex;
+    justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .grid-6 .grid-sec {
