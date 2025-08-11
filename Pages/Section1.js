@@ -39,7 +39,7 @@ export default function Section1() {
           </div>
           <div className="part-3">
             <div className="pt3-1">
-              <div className="pt3-1-1"><h4> No generic websites. No empty marketing promises. <span> Just tools and strategies that help your business grow and your brand shine.</span></h4> </div>
+              <div className="pt3-1-1"><h4>No generic websites. No empty marketing promises. <span> Just tools and strategies that help your business grow and your brand shine.</span></h4> </div>
               <div className="pt3-1-2">© 2025 fabrica® Studio</div>
             </div>
             <div className="pt3-2">

@@ -171,6 +171,7 @@ left: 61px;
     justify-content: space-between;
     border-radius: 20px;
     background-color: white;
+    order: 1;
 }
 .ne-31-1 img{
     width: 46px;
@@ -204,6 +205,7 @@ left: 61px;
      display: flex;
      flex-direction: column;
      gap: 165px;
+     order: 2;
 
 }
 .ne32-1-1 img{
