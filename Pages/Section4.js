@@ -52,7 +52,7 @@ export default function Section4() {
                                     <CountUp end={50} suffix="+" enableScrollSpy scrollSpyOnce scrollSpyDelay={100} />
                                 </div>
                                 <div className='pt8-2211-2'>
-                                    <CountUp end={1} duration={1.5} enableScrollSpy scrollSpyOnce />
+                     01
                                 </div>
                             </div>
                             <div className='pt8-22-1-2'>
@@ -70,7 +70,7 @@ export default function Section4() {
                                     <CountUp end={95} suffix="%" enableScrollSpy scrollSpyOnce scrollSpyDelay={100} />
                                 </div>
                                 <div className='pt8-2211-2'>
-                                    <CountUp end={2} duration={1.5} enableScrollSpy scrollSpyOnce />
+                                  02
                                 </div>
                             </div>
                             <div className='pt8-22-1-2'>

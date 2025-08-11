@@ -18,6 +18,7 @@ export default function Section6() {
                     <h6>fabrica®</h6>
                     <h2>How we launch <span>websites and marketing campaigns.</span></h2>
                     <p>See how our team combines creativity, technology, and strategy to build powerful digital solutions.</p>
+                    <h4>fabrica®</h4>
                 </div>
             </div>
             <div className='mx-w part7-1'>

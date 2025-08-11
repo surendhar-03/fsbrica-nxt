@@ -420,10 +420,32 @@
     padding-top: 30px ! important;
   }
 
+.section4 {
+    padding-top: 50px! important;
+    padding-bottom: 70px! important;
+}
+.pt8-2-1 
+{
+  width: 100%! important;
+padding-top: 30px !important;  
+}
+.Section5 .mx-ww .content-wrapper .part-10 .pt7-1{
+order: 2! important;
+padding-bottom: 20px;
+}
+.Section5 .mx-ww .content-wrapper .part-10 .pt7-2{
+order: 1! important;
 
+padding-bottom: 20px! important;
+}
+.Section6 .part-7 .pt7-2 h6 {
+display: none! important;
 
-
-
+}
+.Section6 .part-7 .pt7-2 h4 {
+  display: block! important;
+  padding-top: 20px;
+}
 
 
 
