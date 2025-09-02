@@ -3,7 +3,7 @@ import { imgdata } from '@/Data/Mydata';
 import '@/Styles/Section6.css';
 export default function Section6() {
     return (
-        <div className=" container Section6">
+        <div className="container Section6">
             <div className="mx-w part-7">
                 <div className="pt7-1">
                     <div className="empty-div  ">
