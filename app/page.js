@@ -8,6 +8,8 @@ import Section4 from "@/Pages/Section4";
 import Section5 from "@/Pages/Section5";
 import Section6 from "@/Pages/Section6";
 import Section7 from "@/Pages/Section7";
+import Section8 from "@/Pages/Section8";
+import Section9 from "@/Pages/Section9";
 
 export default function Home() {
   return (
@@ -21,6 +23,9 @@ export default function Home() {
       <Section5 />
       <Section6/>
       <Section7/>
+      <Section8/>
+      <Section9/>
+
       <Footer />
     </div>
   );

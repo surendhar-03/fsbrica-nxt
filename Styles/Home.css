@@ -420,32 +420,36 @@
     padding-top: 30px ! important;
   }
 
-.section4 {
-    padding-top: 50px! important;
-    padding-bottom: 70px! important;
-}
-.pt8-2-1 
-{
-  width: 100%! important;
-padding-top: 30px !important;  
-}
-.Section5 .mx-ww .content-wrapper .part-10 .pt7-1{
-order: 2! important;
-padding-bottom: 20px;
-}
-.Section5 .mx-ww .content-wrapper .part-10 .pt7-2{
-order: 1! important;
+  .section4 {
+    padding-top: 50px ! important;
+    padding-bottom: 70px ! important;
+  }
 
-padding-bottom: 20px! important;
-}
-.Section6 .part-7 .pt7-2 h6 {
-display: none! important;
+  .pt8-2-1 {
+    width: 100% ! important;
+    padding-top: 30px !important;
+  }
 
-}
-.Section6 .part-7 .pt7-2 h4 {
-  display: block! important;
-  padding-top: 20px;
-}
+  .Section5 .mx-ww .content-wrapper .part-10 .pt7-1 {
+    order: 2 ! important;
+    padding-bottom: 20px;
+  }
+
+  .Section5 .mx-ww .content-wrapper .part-10 .pt7-2 {
+    order: 1 ! important;
+
+    padding-bottom: 20px ! important;
+  }
+
+  .Section6 .part-7 .pt7-2 h6 {
+    display: none ! important;
+
+  }
+
+  .Section6 .part-7 .pt7-2 h4 {
+    display: block ! important;
+    padding-top: 20px;
+  }
 
 
 
@@ -701,7 +705,7 @@ display: none! important;
 
   .afr-13-1 p {
     font-size: 11px !important;
-    
+
   }
 
   .afr14-1 {
@@ -869,7 +873,7 @@ display: none! important;
 
   .ne-3-2 {
     gap: 80px !important;
-    order: 1 !important;
+    /* order: 1 !important; */
   }
 
   .empty-4 {
@@ -881,23 +885,67 @@ display: none! important;
   }
 
 
+  /* section8 */
 
 
+  .Section8 {
+    padding-top: 65px !important;
+    gap: 50px !important;
+  }
+
+  .mx-w.part-11 {
+    display: flex;
+    flex-wrap: wrap !important;
+    gap: 40px !important;
+  }
+
+  .pt-11-1 {
+    width: 43% !important;
+
+  }
+
+  .pt-11-1-1-1 {
+    font-size: 40px !important;
+  }
 
 
+  .pt-11-1-1 p {
+    font-size: 13px !important;
+    width: auto !important;
+  }
 
 
+  .mx-w.part-12 {
+    flex-direction: column;
+    gap: 20px;
+  }
 
+  .part-12-1.pt-12-1 {
+    width: auto !important;
+  }
 
+  .part-12-1.pt-12-2 {
+    width: auto !important;
+  }
 
+  .pt-12-1-1.fab p {
+    font-size: 18px !important;
+  }
 
+  .pt-12-1-2.fab2 p {
+    font-size: 13px !important;
+  }
+  .pt-12-1-2.fab3 p{
+    font-size: 15px !important;
+  }
 
+  .pt-12-1-1.fab4 p {
+    font-size: 24px !important;
+  }
 
+  .part-12-1.pt-12-2 {
+    gap: 25px !important;
 
+  }
 
-
-
-
-
-
-}
+  }

@@ -1,0 +1,88 @@
+.Section8 {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.part-11 {
+    display: flex;
+
+}
+
+.pt-11-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.pt-11-1-1 {
+    display: flex;
+}
+
+.pt-11-1-1-1 {
+    display: flex;
+}
+
+.pt-11-1-1-1 {
+    font-size: 85px;
+}
+
+.pt-11-1-1-2 {
+    width: 50%;
+}
+
+.pt-11-1-1 p {
+    font-size: 16px;
+    width: 156px;
+    color: rgb(105, 105, 105);
+}
+
+.mx-w.part-12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-12-1.pt-12-1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.part-12-1.pt-12-2 {
+    width: 55.6%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.part-12-1.pt-12-3 {
+    width: 19%;
+}
+
+.pt-12-1-1.fab p {
+    font-size: 20px;
+}
+
+.pt-12-1-2.fab2 p {
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+}
+
+.pt-12-1-2.fab3 p {
+    font-size: 19px;
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+}
+
+.pt-12-1-1.fab4 p {
+    font-size: 30px;
+}
+
+.pt-12-1-1.fab4 span {
+    color: rgb(105, 105, 105);
+}
