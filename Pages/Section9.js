@@ -76,7 +76,7 @@ export default function Section9() {
                                     <div className='pt-13-2-2-2-1-1-1'><p> <CountUp end={38} suffix="k" enableScrollSpy scrollSpyOnce scrollSpyDelay={100} /></p></div>
                                     <div className='pt-13-2-2-2-1-1-2'>
                                         <div className='pt-13-2-2-2-1-1-2-1'><p>+30%</p></div>
-                                        </div>
+                                    </div>
                                 </div>
                                 {/* 1st bx la eruka 2nd box */}
                                 <div className='pt-13-2-2-2-1-2'>
@@ -86,31 +86,36 @@ export default function Section9() {
 
                             {/*2nd bx la eruka  2nd bx   */}
                             <div className="pt-13-2-2-2-2">
-  <div className="pt-13-2-2-2-2-bar">
-    <div className="pt-13-2-2-2-2-value">+1k</div>
-    <div className="pt-13-2-2-2-2-label">Dec</div>
-  </div>
+                                <div className="pt-13-2-2-2-2-bar">
+                                    <div className="pt-13-2-2-2-2-value v1"><p>+1k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Dec</p></div>
+                                </div>
 
-  <div className="pt-13-2-2-2-2-bar">
-    <div className="pt-13-2-2-2-2-value">+1.3k</div>
-    <div className="pt-13-2-2-2-2-label">Jan</div>
-  </div>
+                                <div className="pt-13-2-2-2-2-bar">
+                                    <div className="pt-13-2-2-2-2-value v2"><p>+1.3k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Jan</p></div>
+                                </div>
 
-  <div className="pt-13-2-2-2-2-bar">
-    <div className="pt-13-2-2-2-2-value">+1.1k</div>
-    <div className="pt-13-2-2-2-2-label">Feb</div>
-  </div>
+                                <div className="pt-13-2-2-2-2-bar">
+                                    <div className="pt-13-2-2-2-2-value v3"><p>+1.1k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Feb</p></div>
+                                </div>
 
-  <div className="pt-13-2-2-2-2-bar">
-    <div className="pt-13-2-2-2-2-value">+1.5k</div>
-    <div className="pt-13-2-2-2-2-label">Mar</div>
-  </div>
+                                <div className="pt-13-2-2-2-2-bar">
+                                    <div className="pt-13-2-2-2-2-value v4"><p>+1.5k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Feb</p></div>
+                                </div>
 
-  <div className="pt-13-2-2-2-2-bar pt-active">
-    <div className="pt-13-2-2-2-2-value">+5.9k</div>
-    <div className="pt-13-2-2-2-2-label">Apr</div>
-  </div>
-</div>
+                                <div className="pt-13-2-2-2-2-bar ">
+                                    <div className="pt-13-2-2-2-2-value v5"><p>+2.3k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Feb</p></div>
+                                </div>
+                                <div className="pt-13-2-2-2-2-bar black ">
+                                    <div className="pt-13-2-2-2-2-value v6"><p>+5.9k</p></div>
+                                    <div className="pt-13-2-2-2-2-label"><p>Mar</p></div>
+                                </div>
+                                
+                            </div>
 
                         </div>
 
