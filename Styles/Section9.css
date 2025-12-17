@@ -1,0 +1,299 @@
+.Section9 {
+    padding-top: 100px;
+}
+
+.mx-w.part-13 {
+    display: flex;
+}
+
+.pt-13-1 {
+    width: 50%;
+}
+
+.pt-13-2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pt-13-2-1 {
+    width: 38.6%;
+    padding: 40px;
+}
+
+.pt-13-2-2 {
+    width: 49.6%;
+
+}
+
+.pt-13-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 210px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
+.pt-13-2-1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.pt-13-2-1-1-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pt-13-2-1-2-1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.pt-13-2-1-2-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pt-13-2-1-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.per {
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+}
+
+.per1 {
+    font-size: 30px;
+
+}
+
+.pt-13-2-1-2-1-1 img {
+    width: 60px;
+}
+
+.pt-13-2-1-2-2-1 {
+    width: 10%;
+
+}
+
+.pt-13-2-1-2-2-2 {
+    width: 88%;
+    align-content: center;
+
+}
+
+.pt-13-2-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pt-13-2-1-2-2-2 p {
+    font-size: 12px;
+}
+
+.pt-13-2-1-2-2-1 img {
+    border-radius: 20px;
+    width: 24px;
+
+}
+
+.pt-13-2-1-2-2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3rd bx means 2nd bx la 2nd bx */
+.pt-13-2-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.pt-13-2-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.pt-13-2-2-1-1 p {
+    width: 41px;
+    font-size: 24px;
+    padding: 47px;
+    display: flex;
+}
+
+.pt-13-2-2-1-1 {
+    justify-items: center;
+}
+
+.pt-13-2-2-1-1 {
+    position: relative;
+
+    --border-bottom-width: 16px;
+    --border-top-width: 16px;
+    --border-left-width: 16px;
+    --border-right-width: 16px;
+    --border-style: solid;
+    --border-color: #f1f1f1;
+
+    width: 123px;
+    height: 123px;
+    border-radius: 75px;
+    left: 76px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt-13-2-2-1-1[data-border="true"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    box-sizing: border-box;
+    pointer-events: none;
+
+    border-width: var(--border-top-width) var(--border-right-width) var(--border-bottom-width) var(--border-left-width);
+
+    border-style: var(--border-style);
+    border-color: var(--border-color);
+    border-radius: inherit;
+}
+
+
+.pt-13-2-2-1-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pt-13-2-2-1-2-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.pt-13-2-2-1-2-2 {
+    text-align: center;
+}
+
+.pt-13-2-2-1-2-1 p {
+    font-size: 16px;
+}
+
+
+
+
+.pt-13-2-2 {
+
+    border-radius: 25px;
+}
+
+.pt-13-2-2-2 {
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pt-13-2-2-2-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+        width: 47%;
+}
+
+.pt-13-2-2-2-1-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pt-13-2-2-2-1-1-1 p {
+    font-size: 38px;
+}
+
+.pt-13-2-2-2-1-1-2-1 p {
+    font-size: 11px;
+
+}
+
+.pt-13-2-2-2-1 {}
+
+.pt-13-2-2-2-1-1-2 {
+    display: flex;
+    align-items: center;
+}
+
+.pt-13-2-2-2-1-1-2-1 {
+    display: flex;
+    width: 33px;
+    height: 12px;
+    padding: 7px;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+}
+.pt-13-2-2-2-1-2 p{
+font-size: 12px;
+ color: rgb(105, 105, 105);
+}
+
+
+
+
+/* graph styles */
+.pt-13-2-2-2-2 {
+  
+    gap: 2px;
+    height: 139px;
+    display: flex;
+  
+}
+.pt-13-2-2-2-2-bar {
+  flex: 1;
+ 
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 12px 16px;
+}
+.pt-13-2-2-2-2-value {
+ white-space: nowrap; 
+    /* color: #0a0a0a; */
+    font-size: 12px;
+    font-weight: 500;
+    transform: rotate(-90deg);
+    background: #f5f5f5;
+}
+.pt-13-2-2-2-2-label {
+  font-size: 12px;
+  opacity: 0.6;
+  text-align: center;
+}
+.pt-13-2-2-2-2-bar.pt-active {
+  background: #0a0a0a;
+}
+
+.pt-13-2-2-2-2-bar.pt-active .pt-13-2-2-2-2-value {
+  color: #fff;
+}

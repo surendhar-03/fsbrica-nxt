@@ -52,7 +52,7 @@ export default function Header() {
         ))}
 
         {/* Contact info inside menu */}
-        <div className="contact">
+        {/* <div className="contact">
           <div className="contact-1 c1">
             <div className="c1-1">
               <p>(312) 555-2468</p>
@@ -77,7 +77,7 @@ export default function Header() {
               <p>© 2025 fabrica® Studio</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </nav>
     </header>
   );
